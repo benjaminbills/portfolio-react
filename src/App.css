@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap");
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+nav {
+  height: 75px;
+  color: blue;
+}
+h1 {
+  padding-top: 100px;
+  font-size: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 32px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Great Vibes", cursive;
+}
+
+.nav-link:hover {
+  color: aqua;
+}
+
+.about {
+  padding-top: 9rem;
+  padding-bottom: 120px;
+}
+.about-me {
+  font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(20, 19, 19);
+}
+
+.form {
+  border: 1px solid #a1a1a4;
+  padding: 3rem;
+  margin-right: 3%;
+}
+a {
+  text-decoration: none;
+  color: #303030;
+}
+a:hover {
+  color: #a1a1a4;
+}
+.fa-brands {
+  font-size: 2rem;
+}
+
+.submit {
+  width: 100%;
+  background-color: #303030;
+  color: #fafafa;
+}
+
+.submit:hover {
+  color: white;
+}
+
+.form-control:focus {
+  border-color: #303030 !important;
+  box-shadow: 0 0 5px #303030 !important;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 12.5%;
+  text-align: center;
+}
+
+.container {
+  max-width: 75%;
+}
+
+.code {
+  background-color: #303030;
+  color: #fafafa;
+}
+
+.code:hover {
+  background-color: #fafafa;
+  color: #303030;
+}
+
+.description {
+  font-size: 18px;
+}
+.fa-brands {
+  padding-right: 1rem;
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 60%;
+  }
+  .footer {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .work {
+    text-align: center !important;
+  }
+  .form {
+    margin: auto;
+  }
+  .about-me {
+    padding-top: 3rem;
+  }
+}
+
+.highlight {
+  color: rgb(67, 172, 172);
+}
