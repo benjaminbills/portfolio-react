@@ -94,7 +94,8 @@ a:hover {
   color: #303030;
 }
 
-.description {
+.description,
+.work {
   font-size: 18px;
 }
 .fa-brands {
