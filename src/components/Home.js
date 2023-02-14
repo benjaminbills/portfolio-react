@@ -1,24 +1,22 @@
-import React from "react";
-import profilePhoto from "../assets/profile.jpg";
+import React from 'react';
+import profilePhoto from '../assets/profile.jpg';
+import profilePhotoNew from '../assets/Benjamin.jpeg';
+
 function Home() {
   return (
-    <div className="container about">
-      <div className="row">
-        <div className="col-lg-4 col-md-12">
-          <img src={profilePhoto} className="img-fluid" alt="" />
+    <div className='container about'>
+      <div className='row'>
+        <div className='col-lg-4 col-md-12'>
+          <img src={profilePhotoNew} className='img-fluid rounded' alt='' />
         </div>
-        <div className="col-1"></div>
-        <div className="col-lg-7 col-md-12 about-me">
+        <div className='col-1'></div>
+        <div className='col-lg-7 col-md-12 about-me'>
           <h3>Hi, I'm Benjamin</h3>
           <p>
-            I am a Front-End and Back-End Developer. I am a strong advocate of
-            writing clean codes(Keep It DRY). <br />
-            I love developing API's and building Frontend Components. I believe
-            in searching for new challenges daily to improve my self. <br />
-            I build frontend on REACT and ANGULAR, backend on Django. I love
-            learning new things and googling :) is one of my major strengths.
-            <br />
-            When I am not coding, I ride mountain bikes.
+            Knowledgeable Front End and Back End Developer adept at creating
+            successful websites that meet customer needs. Specializing in
+            collaborating with customers to gather requirements, produce plans
+            and improve designs for usability and functionality.
           </p>
           <p>
             <strong>
@@ -28,6 +26,13 @@ function Home() {
             <br />
             Currently learning more about Cloud
           </p>
+          <a
+            href='https://drive.google.com/file/d/16V4c1YfxLcneE7VQW5jj_8BHzxt2ucdM/view?usp=sharing'
+            target='_blank'
+            rel='noreferrer'
+          >
+            View Resume
+          </a>
         </div>
       </div>
     </div>
