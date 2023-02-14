@@ -7,7 +7,12 @@ function Home() {
     <div className='container about'>
       <div className='row'>
         <div className='col-lg-4 col-md-12'>
-          <img src={profilePhotoNew} className='img-fluid rounded' alt='' />
+          <img
+            src={profilePhotoNew}
+            className='img-fluid rounded'
+            style={{ 'max-height': '400px' }}
+            alt=''
+          />
         </div>
         <div className='col-1'></div>
         <div className='col-lg-7 col-md-12 about-me'>
@@ -27,6 +32,7 @@ function Home() {
             Currently learning more about Cloud
           </p>
           <a
+            className='btn border btn-lg'
             href='https://drive.google.com/file/d/16V4c1YfxLcneE7VQW5jj_8BHzxt2ucdM/view?usp=sharing'
             target='_blank'
             rel='noreferrer'
